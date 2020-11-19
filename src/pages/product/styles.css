@@ -1,0 +1,29 @@
+.product-info {
+    width: 90%;
+    max-width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 20px;
+    margin: 25px auto;
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    border-radius: 9px;
+}
+
+.product-info h1 {
+    font-size: 2.2rem;
+}
+
+.product-info p {
+    color: var(--description);
+    line-height: 20px;
+    margin: 7px 0 14px 0;
+}
+
+.product-info p a {
+    color: var(--link);
+    font-size: 1.5rem;
+}

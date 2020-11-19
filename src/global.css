@@ -1,0 +1,42 @@
+:root {
+  font-size: 60%;
+
+  --white: #fff;
+  --background: #fff;
+  --text: #323232;
+  --description: #777;
+  --light-gray: #ddd;
+  --button: #2ecc71;
+  --link: #0097e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+button, #logo, a, h1, h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+button, #logo, h1, h2 {
+  letter-spacing: 1px;
+}
+
+.btn {
+  height: 50px;
+  font-size: 1.7rem;
+  appearance: none;
+  outline: none;
+  border: 0;
+  border-radius: 9px;
+  cursor: pointer;
+}
