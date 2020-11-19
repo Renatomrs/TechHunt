@@ -3,7 +3,7 @@ header#main-header {
     height: 100px;
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var(--background);
 }
 
 #main-header .top-bar-container  {
