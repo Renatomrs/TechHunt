@@ -23,7 +23,7 @@ export default class Product extends Component {
 
         return (
             <div>
-                <Header />
+                <Header title="Product details" />
                 <div className="product-info">
                     <h1>{product.title}</h1>
                     <p>{product.description}</p>

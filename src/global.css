@@ -1,7 +1,6 @@
 :root {
   font-size: 60%;
 
-  --white: #fff;
   --background: #fff;
   --text: #323232;
   --description: #777;
@@ -23,11 +22,11 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-button, #logo, a, h1, h2 {
+button, span, a, h1, h2 {
   font-family: 'Poppins', sans-serif;
 }
 
-button, #logo, h1, h2 {
+button, span, h1, h2 {
   letter-spacing: 1px;
 }
 

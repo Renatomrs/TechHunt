@@ -5,7 +5,10 @@ import iconBackHome from '../../assets/home.svg';
 
 import "./styles.css";
 
-const Header = () => {
+function Header (props) {
+
+    const text = props.title
+
     return (
         <header id="main-header">
             <nav className="top-bar-container">
@@ -15,6 +18,8 @@ const Header = () => {
 
                 <span id="logo">Tech Hunt</span>
             </nav>
+
+            <span id="text">{text}</span>
         </header>
     ); 
 } 
